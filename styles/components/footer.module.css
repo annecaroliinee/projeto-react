@@ -1,1 +1,12 @@
-import  
+  .footerContainer {
+    padding: 2rem;
+    background: #686AAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerText {
+    color: #fff;
+    font-size: 1rem;
+  }
