@@ -1,5 +1,10 @@
-import React from "react";
+import { Header } from '../components/Header'
+import homeImg from '../assets/home.svg'
 
 export function Inicio() {
-    return(<h1>Página do início</h1>)
+  return (
+    <>
+      <Header title="Meu site lindo" image={homeImg} />
+    </>
+  )
 }
